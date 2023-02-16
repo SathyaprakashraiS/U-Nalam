@@ -1,0 +1,224 @@
+
+    ::-webkit-scrollbar {
+        height: 6px;
+        width: 6px;
+        background: rgb(255, 255, 255);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #67696e;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    
+    ::-webkit-scrollbar-corner {
+        background: #000;
+    }
+
+.modelmain{
+    width:100vw;
+    overflow: hidden;
+
+}
+
+.modelbody{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+   
+}
+.model_img{
+    width:30vw;
+    height:90vh;
+    background: black;
+    background: url("https://media.istockphoto.com/id/175426565/photo/x-ray-of-skeleton.jpg?s=612x612&w=0&k=20&c=0UCNkKUK--KDPVuUL2jq2_guVW8x8IRdHiWcX20XihA=");
+    background-position: center;
+    position:absolute;
+    /* margin-top: 40%; */
+
+}
+.model_cont{
+    width:70vw;
+    height:90vh;
+    background: #000000;
+    color: white;
+    margin-right: 30vw;
+    position: relative;
+    /* display: none; */
+   
+}
+.model_floater{
+    background: rgba(0, 0, 0, 0.473);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3px;
+    
+}
+.model_floater > button{
+    width:100px;
+    border:none;
+    background:#1bc99d;
+    color:white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.lung_data{
+    width:70vw;
+    height:90vh;
+    color: white;
+    margin-right: 30vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.upperdata{
+    width:100%;
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+}
+.upper_img{
+    width:30%;
+    height:100%;
+
+}
+.upper_img > img{
+    width:100%;
+    height: 100%;
+}
+.upper_text{
+    width:70%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1d4cc2;
+    color:white;
+}
+
+.lower_data{
+    width:100%;
+    height:70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap:10px ;
+    padding:3%;
+}
+.lower_card1{
+  width:20vw;
+  height:20vh;
+  border:3px solid green;
+  border-radius:10px;
+}
+.lower_card1 > .lower_img{
+    width:20vw;
+    height:20vh;
+    position: absolute;
+}
+.lower_img > img{
+    width:100%;
+    height:100%;
+} 
+.lower_text{
+    width:20vw;
+    height:20vh;
+    position: absolute;
+    z-index: 999;
+    background: #12121286;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.model_grid{
+    width:30vw;
+    height:90vh;
+    position: absolute;
+    /* margin-top: 40%; */
+    background:transparent;
+    display: grid;
+    grid-template-rows: 100px 70px 80px 70px 280px ;
+}
+.headr{
+    background: rgba(255, 0, 0, 0.329);
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lungr{
+    background: rgba(0, 128, 0, 0.144);
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abdomr{
+    background: rgba(255, 255, 0, 0.123);
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pelvicr{
+    background: rgba(0, 0, 255, 0.226);
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legr{
+    background: rgba(165, 42, 42, 0.205);
+    grid-row: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headr_cont{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    padding-top:2%;
+}
+.headr_top{
+    width:100%;
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+}
+.headr_img{
+    width:20%;
+    height:100%;
+}
+.headr_img > img{
+    width:100%;
+    height:100%;
+}
+.headr_text{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headr_lower{
+    width:100%;
+    height:auto;
+    
+}
+
+.headr_lower_cont{
+    background-color: #121212;
+    color:white;
+}

@@ -1,0 +1,85 @@
+.mhome_main{
+    width:100vw;
+    height:90vh;
+    background-color: #abedf9;
+}
+.inhome{
+    width:100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+}
+.img_h{
+    width:40vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_h > img{
+    width:70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.mhome_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mhome_cont > div{
+    width:40vw;
+    height:10vh;
+    margin-bottom :10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.hinfo1{
+    background: #4CC9AE;
+    width: 615px;
+}
+
+.hinfo2{
+    background: #FF881B;
+    width: 615px;
+}
+.hinfo3{
+    background: #425c76;
+    width: 615px;
+}
+.hinfo4{
+    background: #084188;
+    width: 615px;
+}
+
+.hinfo1:hover{
+    background: #2bff00;
+    color: #FFFFFF;
+    width: 615px;
+    /* border-style: solid;
+    border-color: #000000; */
+}
+
+.hinfo2:hover{
+    background: #FFFF00;
+    color: #FFFFFF;
+    width: 615px;
+    /* border-style: solid;
+    border-color: #000000; */
+}
+
+.hinfo3:hover{
+    background: #000000;
+    color: #FFFFFF;
+    width: 615px;
+    /* border-style: solid;
+    border-color: #FFFFFF; */
+}
+
+.hinfo4:hover{
+    background: #0000FF;
+    color: #FFFFFF;
+    width: 615px;
+    /* border-style: solid;
+    border-color: #000000; */
+}
